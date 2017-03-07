@@ -140,6 +140,7 @@ var SignaturePad = (function (document) {
         this._canvas.addEventListener("touchmove", function (event) {
             // Prevent scrolling.
             event.preventDefault();
+            event.stopPropagation();
 
             var touch = event.changedTouches[0];
             self._strokeUpdate(touch);
