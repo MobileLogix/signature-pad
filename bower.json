@@ -1,5 +1,5 @@
 {
-  "name": "signature_pad",
+  "name": "mobilelogix_signature_pad",
   "main": "dist/signature_pad.js",
   "homepage": "https://github.com/MobileLogix/signature_pad",
   "authors": [
