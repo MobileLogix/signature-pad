@@ -1,8 +1,8 @@
 /*!
  * Signature Pad v1.6.0-beta.7
- * https://github.com/szimek/signature_pad
+ * https://github.com/MobileLogix/signature_pad
  *
- * Copyright 2017 Szymon Nowak
+ * Copyright 2017 Destry Strauss
  * Released under the MIT license
  *
  * The main idea and some parts of the code (e.g. drawing variable width Bézier curve) are taken from:
