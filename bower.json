@@ -3,6 +3,7 @@
   "main": "dist/signature_pad.js",
   "homepage": "https://github.com/MobileLogix/signature_pad",
   "authors": [
+    "Destry Strauss <destry@mobilelogix.com>",
     "Szymon Nowak <szimek@gmail.com>"
   ],
   "description": "Library for drawing smooth signatures.",

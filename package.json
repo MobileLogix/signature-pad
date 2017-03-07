@@ -4,9 +4,9 @@
   "version": "1.6.0-beta.7",
   "homepage": "https://github.com/MobileLogix/signature_pad",
   "author": {
-    "name": "Szymon Nowak",
-    "email": "szimek@gmail.com",
-    "url": "https://github.com/szimek"
+    "name": "Destry Strauss",
+    "email": "destry@mobilelogix.com",
+    "url": "https://github.com/MobileLogix"
   },
   "license": "MIT",
   "main": "dist/signature_pad.js",
