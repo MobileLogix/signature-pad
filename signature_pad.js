@@ -2,7 +2,7 @@
  * Signature Pad v1.3.2
  * https://github.com/szimek/signature_pad
  *
- * Copyright 2013 Szymon Nowak
+ * Copyright 2017 Szymon Nowak
  * Released under the MIT license
  *
  * The main idea and some parts of the code (e.g. drawing variable width Bézier curve) are taken from:
@@ -142,6 +142,7 @@ var SignaturePad = (function (document) {
         this._canvas.addEventListener("touchmove", function (event) {
             // Prevent scrolling.
             event.preventDefault();
+            event.stopPropagation();
 
             var touch = event.changedTouches[0];
             self._strokeUpdate(touch);
